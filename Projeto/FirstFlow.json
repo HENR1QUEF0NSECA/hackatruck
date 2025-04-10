@@ -1,0 +1,28 @@
+[
+    {
+        "id": "084bb84322737506",
+        "type": "cloudantplus out",
+        "z": "1c41c05149f077ef",
+        "name": "",
+        "cloudant": "0567b556728b86f6",
+        "database": "henriquef23",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [
+                "57f389227d1c0774",
+                "fe7d9a9eb29a3537"
+            ]
+        ]
+    },
+    {
+        "id": "0567b556728b86f6",
+        "type": "cloudantplus",
+        "host": "https://apikey-v2-14xuwl5dhgbfr6oasi0pcgh5mlxe8bqumleoup4gwc5k:640357996ff6617f43a5a51bffe0cb77@8472bb0f-4f34-4675-bd25-3cf7a52343d1-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "",
+        "useapikey": true
+    }
+]
